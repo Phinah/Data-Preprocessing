@@ -63,6 +63,9 @@ Thumbs.db
 # Allow customer data CSV files
 !customer_social_profiles*.csv
 !customer_transactions*.csv
+# Allow feature CSV files (generated but needed for training)
+!image_features.csv
+!audio_features.csv
 
 # Keep structure but allow actual data files
 Images/*
