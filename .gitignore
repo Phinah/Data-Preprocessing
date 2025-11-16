@@ -48,25 +48,27 @@ wheels/
 Thumbs.db
 
 # Project specific
-*.wav
 *.mp3
 *.mp4
-*.jpg
-*.jpeg
-*.png
+# Allow specific data files
+!*.wav
+!*.jpg
+!*.jpeg
+!*.png
 *.csv
 !requirements.txt
 !README.md
 
-# Keep structure but ignore content
+# Keep structure but allow actual data files
 Images/*
-!Images/.gitkeep
+!Images/*.jpg
+!Images/*.jpeg
+!Images/*.png
 Audio_data/raw/*
-!Audio_data/raw/.gitkeep
+!Audio_data/raw/*.wav
+# Ignore augmented files (generated)
 Audio_data/augmented/*
-!Audio_data/augmented/.gitkeep
 Images/augmented/*
-!Images/augmented/.gitkeep
 models/*
 !models/.gitkeep
 merge-output/*
