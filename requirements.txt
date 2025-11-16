@@ -1,0 +1,25 @@
+# Core data and math libraries
+pandas>=1.3.0
+numpy>=1.21.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Machine learning
+scikit-learn>=1.0.0
+xgboost>=1.5.0
+joblib>=1.0.0
+
+# Audio processing
+librosa>=0.9.0
+soundfile>=0.10.3
+scipy>=1.7.0
+
+# Image processing
+opencv-python>=4.5.0
+Pillow>=8.3.0
+
+# Optional: for live audio recording
+pyaudio>=0.2.11
+

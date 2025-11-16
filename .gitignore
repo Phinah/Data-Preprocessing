@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Models and data
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.pth
+*.pt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.wav
+*.mp3
+*.mp4
+*.jpg
+*.jpeg
+*.png
+*.csv
+!requirements.txt
+!README.md
+
+# Keep structure but ignore content
+Images/*
+!Images/.gitkeep
+Audio_data/raw/*
+!Audio_data/raw/.gitkeep
+Audio_data/augmented/*
+!Audio_data/augmented/.gitkeep
+Images/augmented/*
+!Images/augmented/.gitkeep
+models/*
+!models/.gitkeep
+merge-output/*
+!merge-output/.gitkeep
+specto_wave/*
+!specto_wave/.gitkeep
+
