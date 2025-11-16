@@ -58,6 +58,9 @@ Thumbs.db
 *.csv
 !requirements.txt
 !README.md
+# Allow customer data CSV files
+!customer_social_profiles*.csv
+!customer_transactions*.csv
 
 # Keep structure but allow actual data files
 Images/*
