@@ -487,23 +487,6 @@ Edit the `team_members` list in:
 - `image_processing.py` (around line 308)
 - `audio_processing.py` (around line 332)
 
-## Assignment Deliverables Checklist
-
-- [x] Data merge with feature engineering
-- [x] Image processing (3 expressions per member)
-- [x] Image augmentations (≥2 per image - implemented 5 types)
-- [x] Image feature extraction (histogram, HOG, LBP, color moments)
-- [x] Audio processing (2 phrases per member)
-- [x] Audio augmentations (≥2 per sample - implemented 4 types)
-- [x] Audio feature extraction (MFCC, spectral, energy, chroma, tempo)
-- [x] Facial recognition model (Random Forest, Logistic Regression)
-- [x] Voice verification model (Random Forest)
-- [x] Product recommendation model (Random Forest, XGBoost)
-- [x] Model evaluation (Accuracy, F1-Score, Log Loss)
-- [x] System simulation (full transaction flow)
-- [x] Unauthorized attempt simulation
-- [x] CLI implementation
-
 ## License
 
 This project is part of a data preprocessing assignment.
