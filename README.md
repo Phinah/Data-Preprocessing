@@ -474,23 +474,6 @@ python scripts/predict.py
 - Verify feature extraction is working (check feature CSV files)
 - Try adjusting model hyperparameters in training scripts
 
-## Team Members
-
-Current team members configured in the system:
-- **Phinah**
-- **Sage**
-- **Ayomide**
-- **Carine**
-
-**To update team members:**
-Edit the `team_members` list in:
-- `image_processing.py` (around line 308)
-- `audio_processing.py` (around line 332)
-
-## License
-
-This project is part of a data preprocessing assignment.
-
 ## Contributors
 
 - Phinah
