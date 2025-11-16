@@ -517,5 +517,4 @@ This project is part of a data preprocessing assignment.
 
 ---
 
-**Last Updated:** 2024
-**Version:** 1.0
+
