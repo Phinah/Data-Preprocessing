@@ -69,9 +69,14 @@ Images/*
 !Images/*.png
 Audio_data/raw/*
 !Audio_data/raw/*.wav
-# Ignore augmented files (generated)
+# Allow augmented audio files (generated but needed for training)
 Audio_data/augmented/*
+!Audio_data/augmented/**/*.wav
+# Allow augmented image files (generated but needed for training)
 Images/augmented/*
+!Images/augmented/**/*.jpg
+!Images/augmented/**/*.jpeg
+!Images/augmented/**/*.png
 models/*
 !models/.gitkeep
 merge-output/*
