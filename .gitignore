@@ -23,13 +23,15 @@ wheels/
 .installed.cfg
 *.egg
 
-# Models and data
+# Models and data (ignore by default, but allow in models/ directory)
 *.pkl
 *.joblib
 *.h5
 *.hdf5
 *.pth
 *.pt
+!models/*.pkl
+!models/*.joblib
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -77,7 +79,10 @@ Images/augmented/*
 !Images/augmented/**/*.jpg
 !Images/augmented/**/*.jpeg
 !Images/augmented/**/*.png
+# Allow model files in models/ directory
 models/*
+!models/*.pkl
+!models/*.joblib
 !models/.gitkeep
 merge-output/*
 !merge-output/.gitkeep
